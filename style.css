@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    margin:0;
+    padding:0;
+}
+.cursor{
+    cursor:pointer;
+}
+.navbar{
+   
+    display:flex;
+    align-item:center;
+    justify-content:space-between;   
+}
+.navbar img{
+    padding-left:17px;
+    cursor:pointer;
+    
+}
+.part-2{
+    display:column;
+    justify-content:space-evenly;
+    justify-content:center;
+   
+}
+.sub{
+    height:48px;
+    width:150px;
+    color:white;
+    background-color:black;
+    border:none;
+    cursor:pointer;
+    margin-right:8px;
+    letter-spacing:3px;
+    
+}
+.sub:hover{
+    background: linear-gradient(to right, #FCCD2A 100%, black 0%);
+    color:black;
+}
+.part-2 span{
+    letter-spacing:3px;
+    cursor:pointer;
+    margin-right:8px;
+}
+.navbar a{
+    color:black;
+    text-decoration-color:#FCCD2A ;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+/*hero section*/
+.hero-section img{
+   height:300px;
+   width:100%;
+   background-size:cover;
+   object-fit: cover;
+   
+}
+.hero-section h1{
+    position:absolute;
+    top:250px;
+    left:170px;
+}
+h1 {
+    letter-spacing:3px;
+}
+
+/*serial-section*/
+.serial-section img{
+    filter:brightness(0.8);
+    
+}
+
+.serial-section img:hover {
+    cursor: pointer;
+}
+
+
+
+.serial-section .col{
+    height:430px;
+}
+.family{
+    position:relative;
+    bottom:270px;
+    
+}
+.Ad{
+    position:relative;
+    bottom:260px;
+}
+
+.word{
+    position:relative;
+    bottom:250px;
+}
+
+.Adv{
+    position:relative;
+    right:10px;
+    bottom:300px;
+   
+}
+.geo{
+    position:relative;
+    bottom:300px;
+}
+
+
+
+/*signup-section*/
+.signup-section{
+    height:300px;
+}
+.signup-section img{
+    height:300px;
+    width:100%;
+    background-size:cover;
+    object-fit: cover;
+    filter:brightness(0.7);
+    display:block;
+    
+ }
+.signup-content{
+    position:relative;
+    bottom:300px;
+    margin-top:60px;
+}
+.signup-content h2{
+   letter-spacing:3px;
+}
+.signup-content button{
+    padding:15px 160px ;
+    background-color:  #ffc107;
+    border:none;
+}
+
+/*animal-section*/
+.further-section h1{
+    padding-top:100px;
+    padding-bottom:100px;
+    font-size:3.5rem;
+}
+
+
+
+
+
+/*footer section*/
+.footer-section{
+    background-color:black;
+    display:flex;
+    align-item:center;
+    justify-content:space-evenly;
+    padding-top:60px;
+}
+
+.footer-section li {
+    list-style-type: none; 
+    font-size:0.8rem;
+}
+
+.footer-section a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.footer-section a:hover {
+    text-decoration: underline; 
+}
+ul.d-flex li {
+    margin-right: 15px;
+  }
+
+.footer-section i:hover{
+    cursor:pointer;
+    color:yellow;
+}
+.para{
+    font-size:0.8rem;
+    padding:5px 0 5px 0;
+}
